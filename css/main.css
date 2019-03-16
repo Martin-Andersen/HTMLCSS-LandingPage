@@ -1,37 +1,37 @@
 /************* BASE STYLES *************/
 
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 14px;
-  line-height: 1.4;
-  color: #364147;
-  margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 1.4;
+    color: #364147;
+    margin: 0;
 }
 
 input,
 button {
-  font-family: inherit;
-  font-size: inherit;
-  color: #ffffff;
+    font-family: inherit;
+    font-size: inherit;
+    color: #ffffff;
 }
 
 a {
-  color: #faa541;
-  text-decoration: none;
+    color: #faa541;
+    text-decoration: none;
 }
 
 ul {
-  padding: 0;
-  margin: 0;
-  list-style: none;
+    padding: 0;
+    margin: 0;
+    list-style: none;
 }
 
 nav {
-  padding: 10px 0;
+    padding: 10px 0;
 }
 
 h1,
@@ -40,153 +40,153 @@ h3,
 h4,
 h5,
 h6 {
-  margin: 0;
+    margin: 0;
 }
 
 /***************************************/
 
 .container {
-  margin: 0 auto;
-  max-width: 1170px;
+    margin: 0 auto;
+    max-width: 1170px;
 }
 
 section {
-  display: flex;
+    display: flex;
 }
 
 .flex {
-  display: flex;
+    display: flex;
 }
 
 .flex-column {
-  flex-direction: column;
+    flex-direction: column;
 }
 
 .flex-one {
-  flex: 1;
+    flex: 1;
 }
 
 .align-center {
-  align-items: center;
+    align-items: center;
 }
 
 .center {
-  justify-content: center;
+    justify-content: center;
 }
 
 .space-between {
-  justify-content: space-between;
+    justify-content: space-between;
 }
 
 .btn {
-  cursor: pointer;
-  border: 0;
-  padding: 6px 12px;
-  border-radius: 3px;
-  line-height: 1.4;
-  color: #ffffff;
+    cursor: pointer;
+    border: 0;
+    padding: 6px 12px;
+    border-radius: 3px;
+    line-height: 1.4;
+    color: #ffffff;
 }
 
 .btn-default {
-  background-color: #faa541;
-  color: #ffffff;
+    background-color: #faa541;
+    color: #ffffff;
 }
 
 .btn-primary {
-  background-color: #364147;
-  color: #ffffff;
+    background-color: #364147;
+    color: #ffffff;
 }
 
 .form-control {
-  display: block;
-  padding: 6px 12px;
-  border: 1px solid #a0a0a0;
-  color: #8598a2;
-  line-height: 1.4;
+    display: block;
+    padding: 6px 12px;
+    border: 1px solid #a0a0a0;
+    color: #8598a2;
+    line-height: 1.4;
 }
 
 .text-light {
-  font-size: 30px;
-  color: #a0a0a0;
+    font-size: 30px;
+    color: #a0a0a0;
 }
 
 .text-secondary {
-  font-size: 30px;
-  color: #faa541;
+    font-size: 30px;
+    color: #faa541;
 }
 
 .text-primary {
-  font-size: 16px;
-  color: #364147;
+    font-size: 16px;
+    color: #364147;
 }
 
 .header-nav {
-  border-bottom: 1px solid #a0a0a0;
+    border-bottom: 1px solid #a0a0a0;
 }
 
 .brand {
-  width: 175px;
-  height: 85px;
-  margin-left: -15px;
-  margin-right: 60px;
+    width: 170px;
+    height: 85px;
+    margin-left: -15px;
+    margin-right: 60px;
 }
 
 .logo {
-  min-width: 100%;
-  height: auto;
+    max-width: 100%;
+    height: auto;
 }
 
 .search-box {
-  -webkit-appearance: none;
-  width: 330px;
-  height: 30px;
-  padding: 6px 12px;
-  border: 1px solid #a0a0a0;
+    -webkit-appearance: none;
+    width: 330px;
+    height: 30px;
+    padding: 6px 12px;
+    border: 1px solid #a0a0a0;
 }
 
 .search-button {
-  background-color: #a0a0a0;
-  color: white;
-  width: 100px;
-  height: 30px;
-  border: 0;
-  padding: 0;
+    background-color: #a0a0a0;
+    color: white;
+    width: 100px;
+    height: 30px;
+    border: 0;
+    padding: 0;
 }
 
 .nav-list {
-  width: 575px;
-  padding-left: 0;
-  margin-top: 10px;
+    width: 575px;
+    padding-left: 0;
+    margin-top: 10px;
 }
 
 .nav-list li a {
-  font-size: 16px;
-  font-weight: 700;
-  letter-spacing: 0.2px;
-  text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+    text-transform: uppercase;
 }
 
 .profile {
-  margin-left: auto;
+    margin-left: auto;
 }
 
 .account {
-  text-align: right;
-  padding: 15px;
-  color: #364147;
-  font-size: 18px;
+    text-align: right;
+    padding: 15px;
+    color: #364147;
+    font-size: 18px;
 }
 
 .account a {
-  font-size: 14px;
+    font-size: 14px;
 }
 
 .profile-pic {
-  width: 60px;
-  height: 60px;
+    width: 60px;
+    height: 60px;
 }
 
 .profile-pic img {
-  border-radius: 100px;
-  max-width: 100%;
+    border-radius: 100px;
+    max-width: 100%;
 }
