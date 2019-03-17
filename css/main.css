@@ -1,5 +1,3 @@
-/************* BASE STYLES *************/
-
 * {
     box-sizing: border-box;
 }
@@ -16,7 +14,6 @@ input,
 button {
     font-family: inherit;
     font-size: inherit;
-    color: #ffffff;
 }
 
 a {
@@ -43,7 +40,7 @@ h6 {
     margin: 0;
 }
 
-/***************************************/
+/*****************************************/
 
 .container {
     margin: 0 auto;
@@ -82,32 +79,31 @@ section {
     cursor: pointer;
     border: 0;
     padding: 6px 12px;
-    border-radius: 3px;
     line-height: 1.4;
-    color: #ffffff;
+    border-radius: 3px;
 }
 
 .btn-default {
-    background-color: #faa541;
     color: #ffffff;
+    background-color: #faa541;
 }
 
 .btn-primary {
-    background-color: #364147;
     color: #ffffff;
+    background-color: #364147;
 }
 
 .form-control {
     display: block;
     padding: 6px 12px;
-    border: 1px solid #a0a0a0;
-    color: #8598a2;
     line-height: 1.4;
+    color: #8598a2;
+    border: 1px solid #a0a0a0;
 }
 
 .text-light {
     font-size: 30px;
-    color: #a0a0a0;
+    color: #A0A0A0;
 }
 
 .text-secondary {
@@ -137,7 +133,6 @@ section {
 }
 
 .search-box {
-    -webkit-appearance: none;
     width: 330px;
     height: 30px;
     padding: 6px 12px;
@@ -146,9 +141,9 @@ section {
 
 .search-button {
     background-color: #a0a0a0;
-    color: white;
     width: 100px;
     height: 30px;
+    color: #ffffff;
     border: 0;
     padding: 0;
 }
@@ -161,9 +156,9 @@ section {
 
 .nav-list li a {
     font-size: 16px;
+    text-transform: uppercase;
     font-weight: 700;
     letter-spacing: 0.2px;
-    text-transform: uppercase;
 }
 
 .profile {
@@ -173,8 +168,8 @@ section {
 .account {
     text-align: right;
     padding: 15px;
-    color: #364147;
     font-size: 18px;
+    color: #364147;
 }
 
 .account a {
@@ -189,4 +184,89 @@ section {
 .profile-pic img {
     border-radius: 100px;
     max-width: 100%;
+}
+
+.hero {
+    background-image: url('../img/hero.jpg');
+    height: 400px;
+    background-size: cover;
+    background-position: center center;
+    text-transform: uppercase;
+}
+
+.hero h1 {
+    position: relative;
+    left: -30px;
+}
+
+.hero h2 {
+    color: #faa541;
+}
+
+.hero h1,
+.hero h2 {
+    font-size: 63px;
+    font-weight: 700;
+    line-height: 0.9;
+}
+
+.hero p {
+    letter-spacing: 2px;
+    font-weight: 700;
+    font-size: 21px;
+    margin: 0 0 10px;
+}
+
+.banner {
+    margin: 55px 15px;
+    width: 100%;
+    border-top: 1px solid #a0a0a0;
+    border-bottom: 1px solid #a0a0a0;
+    padding: 25px 0;
+}
+
+.banner img {
+    width: 250px;
+}
+
+.banner-text {
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1;
+    text-align: center;
+}
+
+.banner-text>div:last-child {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 5px;
+}
+
+.category {
+    flex: 0 0 25%;
+    padding: 0 15px;
+}
+
+.category img {
+    width: 100%;
+}
+
+.category-text {
+    color: #364147;
+    padding: 30px 0;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.category-text>div {
+    font-size: 16px;
+    font-weight: 200;
+    color: #faa541;
+}
+
+.category-text h3 {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1;
 }
